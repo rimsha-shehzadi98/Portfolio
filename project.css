@@ -313,3 +313,139 @@ footer p:nth-child(2){
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  /* Add this CSS code for responsiveness */
+
+/* Mobile First Styles */
+@media (max-width: 768px) {
+    nav {
+      padding: 20px;
+      text-align: center;
+    }
+  
+    .logo {
+      font-size: 30px;
+    }
+  
+    nav ul {
+      display: none;
+    }
+  
+    .btn {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    .content {
+      top: 40%;
+      text-align: center;
+      left: 0;
+      right: 0;
+    }
+  
+    h1 {
+      font-size: 40px;
+    }
+  
+    h3 {
+      font-size: 20px;
+    }
+  
+    h4 {
+      font-size: 16px;
+    }
+  
+    .about {
+      padding: 50px 0;
+    }
+  
+    .about img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .about-text {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .about-text h2 {
+      font-size: 40px;
+    }
+  
+    .about-text h5 {
+      font-size: 18px;
+    }
+  
+    .about-text p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+  
+    .button {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    .service {
+      padding: 50px 0;
+    }
+  
+    .title h2 {
+      font-size: 40px;
+    }
+  
+    .card {
+      width: 100%;
+      margin: 15px 0;
+    }
+  
+    .card i {
+      font-size: 40px;
+      margin: 15px 0;
+    }
+  
+    h5 {
+      font-size: 18px;
+    }
+  
+    .pra p {
+      font-size: 14px;
+    }
+  
+    .card .button {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    .contact-me {
+      height: auto;
+      padding: 40px 0;
+    }
+  
+    .contact-me p {
+      font-size: 24px;
+    }
+  
+    .contact-me .button-two {
+      font-size: 16px;
+      padding: 10px 20px;
+    }
+  
+    footer p:nth-child(1) {
+      font-size: 24px;
+    }
+  
+    footer p:nth-child(2) {
+      font-size: 14px;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .social a {
+      width: 30px;
+      height: 30px;
+      font-size: 18px;
+      margin: 10px 5px;
+    }
+  }
+  
