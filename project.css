@@ -8,7 +8,7 @@
 .hero{
     height: 100vh;
     width: 100%;
-    background-image: url(pexels-daniel-putzer-633409.jpg);
+    background-image: url(backImg.jpg);
     background-size: cover;
     background-position: center;
 }
